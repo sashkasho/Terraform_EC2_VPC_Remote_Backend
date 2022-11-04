@@ -2,7 +2,7 @@
 # EC2 + VPC + Remote Backend with AWS S3
 
 ## Description
-Terraform Infrastructure for building EC2 with apache web server with configured VPC and Remote Backend (AWS S3).
+Terraform Infrastructure for building EC2 with apache web server and Remote Backend (AWS S3). This infrastructure contains a module with network settings (VPC).
 
 #### Requirements for manual deploy
 There are packages below that should be installed on the (local) host where you'll be running deploy:
@@ -13,7 +13,7 @@ There are packages below that should be installed on the (local) host where you'
 
 *1. Get source code for install project:*  
 ```
-git clone https://github.com/sashkasho/Terraform_Lecture5.git
+git clone https://github.com/sashkasho/Terraform_EC2_VPC_Remote_Backend_Lecture5.git
 ```
 *2. Go to the project folder*
 
@@ -31,7 +31,7 @@ terraform apply
 ### Installation instructions for creating a project in **Terraform Cloud**
 *1. Get source code for install project:*  
 ```
-git clone https://github.com/sashkasho/Terraform_Lecture5.git
+git clone https://github.com/sashkasho/Terraform_EC2_VPC_Remote_Backend_Lecture5.git
 ```
 *2. Go to your Terraform Cloud account and create a new Version Control Workspace*
 
